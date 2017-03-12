@@ -7,7 +7,7 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "WoodRobotics.RaspberryPi.Ge
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{338991C1-4EA0-4A1D-9FD1-C1765A5B0619}"
 	ProjectSection(SolutionItems) = preProject
-		readme.txt = readme.txt
+		readme.md = readme.md
 	EndProjectSection
 EndProject
 Global
