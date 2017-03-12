@@ -55,6 +55,7 @@ if __name__ == "__main__":
         global DetectedRadiation
         DetectedRadiation = True
 
+
     # Call back on detected noise from the Pocket Geiger
     # Noise/Vibration on the Pocket Geiger gives false Radiation readings
     # The device driver supplied by Radiation-Watch.com takes this into account
