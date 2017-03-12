@@ -1,1 +1,1 @@
-https://github.com/WoodRobotics/PiGeigerCounter.git
+Read, display, and log radiation levels using a Pocket Geiger Type 5 from Radiation-Watch.org
