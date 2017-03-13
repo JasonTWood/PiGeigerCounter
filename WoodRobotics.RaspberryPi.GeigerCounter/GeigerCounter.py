@@ -198,6 +198,12 @@ if __name__ == "__main__":
                 # Store the current log time
                 LastLog = millis()
 
-                # Open our log file for append and create it if it doesn't exist
-                with open("/home/pi/share/geiger.log","a+") as f:
-                    f.write(datetime.now().strftime('%a, %d %b %Y %H:%M:%S') + "," + str(radiation['uSvh']) + "," + str(radiation['cpm']) + "," + str(radiation['uSvhError']) + '\r\n')
+                try:
+
+                    # Open our log file for append and create it if it doesn't exist
+                    with open("/home/pi/share/geiger.log","a+") as f:
+                        f.write(datetime.now().strftime('%a, %d %b %Y %H:%M:%S') + "," + str(radiation['uSvh']) + "," + str(radiation['cpm']) + "," + str(radiation['uSvhError']) + '\r\n')
+
+                # will someone tell me how to do nothing?
+                except:
+                    donothing = True
